@@ -1,0 +1,118 @@
+{
+  "setting": "2-2x2-mesh-del-bri-maz-hd",
+  "back_color": 200,
+  "room_name": "Dice-Play-1",
+  "patch_layout": "2x2",
+  "canvas_size": "1920x1080",
+  "capture_size": "",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 0,
+  "live_chk": 0,
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 1,
+        "eff_label": "face_mesh",
+        "ihide": 0,
+        "urect": {
+          "x0": 0,
+          "y0": 0,
+          "width": 960,
+          "height": 540
+        }
+      },
+      "eff_props": {
+        "alpha": 255,
+        "align": "center",
+        "back_color": 1,
+        "period": 0,
+        "hi_rez": 1,
+        "sticky": 1,
+        "reveal": 0,
+        "reveal_full": 1,
+        "box_outter": 0,
+        "box_rect": 0,
+        "draw": "mesh",
+        "mar_h": 0,
+        "slen": 2,
+        "mask_index": 0,
+        "avg_index": 1440,
+        "pixd_n": 8
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 1,
+        "imedia": 1,
+        "eff_label": "delaunay",
+        "ihide": 0,
+        "ipipe": 1,
+        "urect": {
+          "x0": 960,
+          "y0": 0,
+          "width": 960,
+          "height": 540
+        }
+      },
+      "eff_props": {
+        "dcell": 50,
+        "period": 30,
+        "type": "triangle",
+        "alpha": 255,
+        "gray": 0
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 2,
+        "imedia": 1,
+        "eff_label": "bright",
+        "ipipe": 1,
+        "urect": {
+          "x0": 0,
+          "y0": 540,
+          "width": 960,
+          "height": 540
+        }
+      },
+      "eff_props": {
+        "scale": 16,
+        "back_color": 0,
+        "src_color": 255,
+        "fill": 1,
+        "invert": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 3,
+        "imedia": 1,
+        "eff_label": "maze",
+        "ipipe": 1,
+        "urect": {
+          "x0": 960,
+          "y0": 540,
+          "width": 960,
+          "height": 540
+        }
+      },
+      "eff_props": {
+        "ncell": 32,
+        "weight": 0.5,
+        "rate": "frame",
+        "period": 5
+      }
+    }
+  ],
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": false
+    }
+  ],
+  "urects_lock": 0,
+  "urects_count": 4,
+  "canvas_resize_ref": ""
+}
