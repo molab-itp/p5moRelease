@@ -1,0 +1,64 @@
+{
+  "setting": "",
+  "comment": "yoga-thursday",
+  "back_color": 200,
+  "room_name": "VideoKit-Room-1",
+  "patch_layout": "Single",
+  "canvas_size": "1080x1920",
+  "capture_size": "default",
+  "render_size": "Canvas",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 0,
+  "live_chk": 0,
+  "urects_lock": 0,
+  "urects_count": 2,
+  "canvas_resize_ref": "",
+  "canvas_data_chk": 0,
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": 0,
+      "mute": 1
+    }
+  ],
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 0,
+        "eff_label": "image_url",
+        "urect": {
+          "width": 1080,
+          "height": 1920,
+          "x0": 0,
+          "y0": 0
+        }
+      },
+      "eff_props": {
+        "image_align": "center",
+        "image_url": "./external/media/webdb/screens/yoga-thursday-IMG_3355a.jpeg"
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 1,
+        "imedia": 0,
+        "eff_label": "loop",
+        "urect": {
+          "width": 1080,
+          "height": 1920,
+          "x0": 0,
+          "y0": 0
+        }
+      },
+      "eff_props": {
+        "period": 10,
+        "step_patch": 0,
+        "freeze_patch": 0,
+        "freeze_screen": 0,
+        "effects": "sketchy,slant_scan,slit_scan"
+      }
+    }
+  ]
+}
