@@ -1,0 +1,58 @@
+{
+  "setting": "ticker",
+  "comment": "",
+  "back_color": 1,
+  "room_name": "Dice-Play-1",
+  "patch_layout": "Single",
+  "canvas_size": "960x540",
+  "capture_size": "480x270",
+  "render_size": "Canvas",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 1,
+  "live_chk": 1,
+  "urects_lock": 0,
+  "urects_count": 1,
+  "canvas_resize_ref": "",
+  "canvas_data_chk": 0,
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": 0,
+      "mute": 1
+    },
+    {
+      "vis": 0
+    },
+    {
+      "vis": false
+    },
+    {
+      "vis": false
+    },
+    {
+      "vis": false
+    },
+    {
+      "vis": false
+    }
+  ],
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 0,
+        "eff_label": "ticker",
+        "urect": {
+          "width": 960,
+          "height": 540,
+          "x0": 0,
+          "y0": 0
+        }
+      },
+      "eff_props": {
+        "display_copy_right": 0
+      }
+    }
+  ]
+}
