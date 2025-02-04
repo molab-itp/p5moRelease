@@ -1,0 +1,174 @@
+{
+  "setting": "2-live-niner",
+  "back_color": 200,
+  "room_name": "Dice-Play-1",
+  "patch_layout": "4x4",
+  "canvas_size": "1920x1080",
+  "capture_size": "320x240",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 0,
+  "live_chk": 1,
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 2,
+        "eff_label": "diff",
+        "urect": {
+          "x0": 320,
+          "y0": 60,
+          "width": 1280,
+          "height": 960
+        }
+      },
+      "eff_props": {
+        "threshold": 16,
+        "period": 0,
+        "back_color": "rgb(0,0,0)",
+        "smooth": 0,
+        "hold": 0
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 1,
+        "urect": {
+          "x0": 0,
+          "y0": 60,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 2,
+        "urect": {
+          "x0": 0,
+          "y0": 300,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 3,
+        "urect": {
+          "x0": 0,
+          "y0": 540,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 4,
+        "urect": {
+          "x0": 0,
+          "y0": 780,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 5,
+        "urect": {
+          "x0": 1600,
+          "y0": 60,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 6,
+        "urect": {
+          "x0": 1600,
+          "y0": 300,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 7,
+        "urect": {
+          "x0": 1600,
+          "y0": 540,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "imedia": 2,
+        "eff_label": "show",
+        "ipatch": 8,
+        "urect": {
+          "x0": 1600,
+          "y0": 780,
+          "width": 320,
+          "height": 240
+        }
+      },
+      "eff_props": {
+        "step_patch": 1
+      }
+    }
+  ],
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": false
+    },
+    {
+      "vis": false
+    }
+  ],
+  "urects_lock": 1,
+  "urects_count": 9,
+  "canvas_resize_ref": ""
+}
