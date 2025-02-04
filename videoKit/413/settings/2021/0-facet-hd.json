@@ -1,0 +1,115 @@
+{
+  "setting": "0-facet-hd",
+  "back_color": -1,
+  "room_name": "Dice-Play-1",
+  "patch_layout": "Single",
+  "canvas_size": "1920x1080",
+  "capture_size": "default",
+  "chat_name": "jht",
+  "chat_chk": 0,
+  "live_index": 0,
+  "live_chk": 0,
+  "patches": [
+    {
+      "eff_spec": {
+        "ipatch": 0,
+        "imedia": 1,
+        "eff_label": "face_mesh",
+        "urect": {
+          "width": 1920,
+          "height": 1080,
+          "x0": 0,
+          "y0": 0
+        },
+        "ihide": 1
+      },
+      "eff_props": {
+        "alpha": 255,
+        "align": "center",
+        "back_color": 1,
+        "period": 0,
+        "reveal": 0,
+        "reveal_full": 1,
+        "from": 0,
+        "to": 1,
+        "src_patch": 1,
+        "type": "triangle",
+        "bbox": 0,
+        "mar_h": 5,
+        "show": 0,
+        "hi_rez": 1,
+        "box_outter": 0,
+        "box_rect": 0,
+        "draw": "mesh",
+        "slen": 2,
+        "sticky": 1,
+        "mask_index": 0,
+        "avg_index": 1440,
+        "pixd_n": 8,
+        "draw_mod": 4,
+        "detect_max": 1
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 1,
+        "imedia": 0,
+        "eff_label": "loop",
+        "urect": {
+          "width": 1920,
+          "height": 1080,
+          "x0": 0,
+          "y0": 0
+        },
+        "ipipe": 1,
+        "ihide": 1
+      },
+      "eff_props": {
+        "period": 10,
+        "snap": 0,
+        "snap_screen": 0,
+        "phase_check": 0,
+        "step_patch": 3,
+        "freeze_patch": 1,
+        "freeze_screen": 0,
+        "effects": "bright,delaunay,grid,maze,sketchy"
+      }
+    },
+    {
+      "eff_spec": {
+        "ipatch": 2,
+        "imedia": 1,
+        "eff_label": "tile_clock",
+        "urect": {
+          "width": 1920,
+          "height": 1080,
+          "x0": 0,
+          "y0": 0
+        },
+        "ipipe": 1
+      },
+      "eff_props": {
+        "period": 1,
+        "pixd_n": 16,
+        "freeze_patch": 1,
+        "center_draw": "pixd",
+        "gray_back": 0,
+        "center_only": 0,
+        "freeze_damp": 30
+      }
+    }
+  ],
+  "mediaDiv_states": [
+    null,
+    {
+      "vis": 0,
+      "mute": 1
+    },
+    {
+      "vis": false
+    }
+  ],
+  "urects_lock": 0,
+  "urects_count": 3,
+  "canvas_resize_ref": ""
+}
